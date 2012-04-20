@@ -39,8 +39,6 @@ Foo.find(1)
 Foo.find("680d92fc-8b1e-11e1-a80a-70cd60fffe5d")
  => #<Foo id: 1, uuid: "680d92fc-8b1e-11e1-a80a-70cd60fffe5d">
 ```
-* db/schema.rb is replaced with db/development_structure.sql
-* `rake db:schema:*` is now useless, use `rake db:structure:` instead
 
 ## Native UUID Columns
 
