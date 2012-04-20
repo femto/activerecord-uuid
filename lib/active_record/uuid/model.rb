@@ -1,4 +1,4 @@
-require 'uuidtools'
+require 'securerandom'
 
 module ActiveRecord
   module Uuid
@@ -16,7 +16,7 @@ module ActiveRecord
     private
     
       def assign_uuid
-        write_attribute(:uuid, UUIDTools::UUID.timestamp_create.to_s)
+        write_attribute(:uuid, SecureRandom.uuid)
       end
     end
   end

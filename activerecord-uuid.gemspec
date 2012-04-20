@@ -20,7 +20,6 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency "activerecord", "~> 3.1"
   s.add_runtime_dependency "railties", "~> 3.1"
-  s.add_runtime_dependency "uuidtools"
 
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
