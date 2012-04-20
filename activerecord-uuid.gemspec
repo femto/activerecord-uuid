@@ -5,9 +5,9 @@ require "active_record/uuid/version"
 Gem::Specification.new do |s|
   s.name        = "activerecord-uuid"
   s.version     = ActiveRecord::Uuid::VERSION
-  s.authors     = ["Philip Champon"]
-  s.email       = ["pchampon@gmail.com"]
-  s.homepage    = ""
+  s.authors     = ["Philip Champon", "Nathan Bryan"]
+  s.email       = ["pchampon@gmail.com", "nathan.bryan@gmail.com"]
+  s.homepage    = "http://github.com/adaptly/activerecord-uuid"
   s.summary     = %q{Bundles all UUID for ActiveRecord and Postgres}
   s.description = %q{Installs blah blah blah}
 
