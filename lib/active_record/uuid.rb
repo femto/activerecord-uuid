@@ -1,6 +1,6 @@
 require 'active_record/uuid/finder_methods'
 require 'active_record/uuid/model'
-require 'active_record/uuid/railtie'
+#require 'active_record/uuid/railtie'
 require 'active_record/uuid/relation'
 require 'active_record/uuid/version'
 

@@ -5,3 +5,8 @@
 .bundle
 Gemfile.lock
 pkg/*
+
+rabbitmq-tutorials
+.idea
+*.bak
+*.log
